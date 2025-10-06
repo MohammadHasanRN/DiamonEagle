@@ -11,7 +11,7 @@ export const LoadingScreen = () => {
     const {top} = useSafeAreaInsets();
 
     return (
-        <Box zIndex={10} backgroundColor="Light" flex={1}>
+        <Box zIndex={10} backgroundColor="LightGray" flex={1}>
             <Box flex={1} />
             <Box flex={5} justifyContent="space-between">
                 <Box alignItems="center" style={{paddingTop: top || theme.spacing.m}}>
